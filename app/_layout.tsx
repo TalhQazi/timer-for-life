@@ -1,7 +1,7 @@
 import {
-    DarkTheme,
-    DefaultTheme,
-    ThemeProvider,
+  DarkTheme,
+  DefaultTheme,
+  ThemeProvider,
 } from "@react-navigation/native";
 import * as Notifications from "expo-notifications";
 import { Stack, router } from "expo-router";
@@ -64,7 +64,7 @@ export default function RootLayout() {
     // You could show a loading screen here if needed
     return null;
   }
-
+// now gioing to the return statemnet
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <AuthProvider>
