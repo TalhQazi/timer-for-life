@@ -2,9 +2,9 @@
   "expo": {
     "name": "Timer For Life",
     "slug": "timer-epo",
-    "icon": "./assets/images/timer.png",
+    "icon": "./assets/images/icon.png",
     "splash": {
-      "image": "./assets/images/timer.png",
+      "image": "./assets/images/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
@@ -15,9 +15,9 @@
     },
     "android": {
       "package": "com.faadi123.timerepo",
-      "newArchEnabled": false,
+      "newArchEnabled": true,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/timer.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#000000"
       }
     },
